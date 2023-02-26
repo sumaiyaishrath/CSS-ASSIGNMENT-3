@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+     max-width: 1200px;
+     width: 100%;    
+    margin: 0   auto;    
+    font-family: 'inter', sans-serif;
+}
+/* styles for header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+header ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+ a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: gray;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+/* passage after the first image*/
+
+.content-section{
+    
+    justify-content: space-between;
+    display: flex;
+}
+.hero-section{
+    width: 70%;
+    height: 30%;
+
+}
+.hero-section img{
+    width: 100%;
+}
+.hero-section h2{
+    font-size: 2.5rem;
+}
+.hero-content{
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 10px;
+    font-family: 'inter',sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+.headline h2{
+ width: 80%;   
+ font-size: 2.5rem;
+ line-height: 2.5rem;
+ letter-spacing: 1px;
+ font-weight: bold;
+ }
+ .description{
+    width: 110%;
+    color: gray;
+ }
+button{
+    background-color: tomato;     
+    padding: 14px 28px;
+    text-transform: uppercase;
+    color: white ; 
+    margin-top: 15px;
+    
+    letter-spacing: 2px; 
+    border: none;   
+}
+button:hover{
+    background-color: brown;   
+    cursor: pointer;
+}
+.new-section{
+    width: 25%;    
+   background-color: black;
+    padding: 30px;
+}
+.new-section h2{
+    color: orange;
+    font-size: 100;
+}
+.new-passage{    
+    padding: 10px 0px;
+}
+
+.new-passage h3{
+    color: white;
+    /*margin-bottom: 20px;*/
+    margin-top: 10px;
+}
+.new-passage h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.new-passage p{
+    color: gray;
+    font-size: small;
+    padding: 15px;
+}
+.image-cards{
+    display: flex;
+    /*height: 40px;*/
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.card-image{
+    display:flex;
+    /*padding: 10px;*/
+    /*text-size-adjust: 10px;*/
+    /*border: 2px solid gray;
+    border-style: double;*/
+    }
+    .card-description{
+        padding: 5px;
+        padding-right: 90px;
+        border: 2px none gray;    
+    }
+.card-description h2{
+    color: gray;
+    font-size: 30px;
+}    
+.card-description h3{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+.card-description h4{
+    font-size: 10px;
+    padding: 5px;
+    color: gray;
+}
+
+   
